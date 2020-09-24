@@ -54,7 +54,7 @@ table{
 }
 
 .colhead{
-  background-color: #7e0830;
+  background-color: #7e0820;
   color: #FFFFFF;
   min-width: 125px;
   padding: 10px;
@@ -86,28 +86,28 @@ tr:nth-child(even){
   background-color: #D1D1D1;
 }
 
-thead tr:first-child th:first-child{
-  border-top-left-radius: 2px;
-}
-
-thead tr:first-child th:last-child{
-  border-top-right-radius: 2px;
-}
-
-thead tr:last-child th{
-  border-bottom-left-radius: 2px;
-}
-
-thead tr:last-child td:last-child{
-  border-bottom-right-radius: 2px;
-}
-
 tr:hover{
   background-color: rgba(126, 8, 32, .25);
 }
 
 *:focus{ 
   border: 3px dashed #417243; 
+}
+
+thead tr:first-child th:first-child{
+  border-top-left-radius: 10px;
+}
+
+thead tr:first-child th:last-child{
+  border-top-right-radius: 10px;
+}
+
+thead tr:last-child th{
+  border-bottom-left-radius: 10px;
+}
+
+thead tr:last-child td:last-child{
+  border-bottom-right-radius: 10px;
 }
 
 footer{
